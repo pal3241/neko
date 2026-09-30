@@ -14,6 +14,8 @@
 #include "../modules/console.cpp"
 #include "../modules/http.cpp"
 #include "../modules/loadstring.cpp"
+#include "../modules/drawing.cpp"
+#include "../modules/misc.cpp"
 
 // -------------------------------------------------------
 // shared logger — sends to both pipe and debug output
@@ -61,6 +63,8 @@ static void executor_main() {
     ModuleLoader::get().register_module(std::make_shared<ConsoleModule>());
     ModuleLoader::get().register_module(std::make_shared<HttpModule>());
     ModuleLoader::get().register_module(std::make_shared<LoadstringModule>());
+    ModuleLoader::get().register_module(std::make_shared<DrawingModule>());
+    ModuleLoader::get().register_module(std::make_shared<MiscModule>());
 
     // init all modules against our lua state
     ModuleLoader::get().init_all(LuaStateManager::get().state());

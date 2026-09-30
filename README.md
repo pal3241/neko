@@ -103,6 +103,5 @@ are still valid after an update, nothing breaks automatically.
 | console    | ✅     | hooks print/warn/error, pipes to UI |
 | http       | ✅     | HttpGet, http.request |
 | loadstring | ✅     | re-enables loadstring |
-| drawing    | 🔜     | Drawing library |
-| filesystem | 🔜     | readfile, writefile |
-| misc       | 🔜     | getrawmetatable, hookfunction, etc. |
+| drawing    | ✅     | full Drawing API (Line, Circle, Square, Text, etc.) |
+| misc       | ✅     | getrawmetatable, hookfunction, newcclosure, getgc, getinstances, clipboard, filesystem |

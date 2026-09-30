@@ -1,0 +1,25 @@
+{
+  "name": "naiko-executor",
+  "version": "1.0.0",
+  "description": "Naiko Executor UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.naiko.executor",
+    "productName": "Naiko",
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico"
+    },
+    "files": ["**/*", "!node_modules/.cache"]
+  }
+}

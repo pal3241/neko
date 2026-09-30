@@ -1,0 +1,14 @@
+{
+  "lua_state":         "48 8B 05 ? ? ? ? 48 85 C0 74 ? 48 8B 40 ? C3",
+  "identity_level":    "83 B9 ? ? ? ? ? 74 ? 8B 81 ? ? ? ? C3",
+  "script_context":    "48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 48 8B FA 48 85 D2",
+  "loadstring":        "E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8 E8 ? ? ? ? 90",
+  "print_func":        "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24",
+  "task_scheduler":    "48 8B 0D ? ? ? ? 48 85 C9 74 ? E8 ? ? ? ? 48 8B C8",
+  "data_model":        "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 85 C9 74 ? 48 8B 01",
+  "fire_server":       "E8 ? ? ? ? 90 48 8B 4C 24 ? 48 33 CC E8 ? ? ? ? 48 81 C4",
+  "invoke_server":     "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B F8 48 8B F2",
+  "get_service":       "48 89 5C 24 ? 57 48 83 EC ? 48 8B 01 48 8B D9 FF 90 ? ? ? ?",
+  "close_lua_state":   "48 83 EC ? 48 8B 01 FF 90 ? ? ? ? 48 83 C4 ? C3",
+  "roblox_version":    "52 42 58 56 45 52"
+}
